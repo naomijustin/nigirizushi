@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+
+<!-- Head Links -->
+<head>
+    <!-- Meta Tags -->
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tribute: The Art of Nigirizushi</title>
+ 
+    <!-- *** Links *** -->
+ 
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+    <!--<base href="/">-->
+    <base href="index.html" target="blank">
+</head>
+ 
+<!-- Body -->
+
+<body>
+ 
+ 
+<!-- ============================= 
+            HTML MARKUP
+     =============================
+-->
+ 
+    <main>
+        
+   
+    <!-- Top Card Container -->
+    <div id="topCardContainer" style="z-index: -1">
+      
+        <!-- ========================================
+                Header SVGs (Waves & Blobs) 
+          ========================================= -->
+        
+        <div id="customBlob1">
+        </div>
+              <!-- Wave 1 -->
+        <svg id="topCardWave1" xmlns="http://www.w3.org/1999/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" height="250px" width="100%" style="position: absolute; z-index: -1"><path fill="#8C8A8A" fill-opacity="1" d="M0,288L48,266.7C96,245,192,203,288,192C384,181,480,203,576,213.3C672,224,768,224,864,192C960,160,1056,96,1152,58.7C1248,21,1344,11,1392,5.3L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+              
+              <!-- Wave 2 -->
+          <svg id="topCardWave2" clip-path="url(#clip2ndWave)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#787676" fill-opacity="1" d="M0,0L40,16C80,32,160,64,240,74.7C320,85,400,75,480,64C560,53,640,43,720,69.3C800,96,880,160,960,176C1040,192,1120,160,1200,128C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+          
+          
+              <!-- Clipping Path-->
+          <clipPath id="clip2ndWave">
+            <path     d="M0,288L48,266.7C96,245,192,203,288,192C384,181,480,203,576,213.3C672,224,768,224,864,192C960,160,1056,96,1152,58.7C1248,21,1344,11,1392,5.3L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </clipPath>
+          
+        </svg> <!-- End Wave 2 -->
+        
+        <!-- Blob 1 (Left Absolute) -->
+        <svg id="blob1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="height: 140px; width: 140px; z-index: -1">
+    <path fill="#787676" d="M59.6,-24.2C64.7,-3.7,47.7,19.2,25,36.1C2.3,52.9,-25.9,63.8,-44.1,52.5C-62.2,41.2,-70.2,7.9,-61.2,-18C-52.2,-44,-26.1,-62.5,0.6,-62.7C27.3,-62.9,54.5,-44.7,59.6,-24.2Z" transform="translate(100 100)" />
+        </svg> <!-- End Blob 1 -->
+          
+        </svg> <!-- End Wave 1 -->
+      
+  <!-- Container for Sushi and Text (inside viewport) -->    
+  <div id="sushiTextContainer">
+        <!-- =============================================
+                              Sushi Images 
+              ===========================================-->
+      
+                        
+    
+        <div id="img-div" class="topGridItem">
+          <!-- DIV SVG Image Container -->
+          <div id="image-containter">
+            
+            <!-- SVG Nested Container -->  
+            <svg id="sushiSVG-Container" height="80%" width="80%" viewbox="-100 0 900 500" preserveAspectRatio>
+  
+              
+                      <!-- ================
+                            Bottom Shadow
+                         ===================-->
+              <svg>
+                <path fill="#4A4949" opacity="0.4" d="M 232 284 C 459 203 633 257 478 325 C 392 355 343 394 274 410 C 121 435 40 422 84 376 Z" />
+              </svg>
+        
+                        <!-- ================
+                                Rice  
+                         ===================-->
+                     
+    <!-- Nested Rice SVG Container -->
+          <svg viewbox="30 40 970 500" style="z-index: 1;">
+              
+            <!-- Rice Base -->
+          <svg id="riceBase">
+            <path fill="#C3C3C3" d="M 331 173 Q 258 197 207 244 Q 114 273 107 357 Q 89 382 118 386 Q 110 414 135 399 Q 132 425 174 417 Q 196 430 203 412 Q 218 425 231 411 Q 234 437 302 416 Q 314 426 325 415 Q 365 420 421 382 Q 443 388 455 366 Q 472 382 512 329 Q 537 341 537 313 Q 561 324 559 274 Q 583 259 573 234 Q 594 223 575 205 Q 596 186 555 159 Q 511 116 455 139 Z" />          
+          </svg>
+             
+              <!-- Clipping (Rice Base & Top) -->
+              <clipPath id="riceClip">
+                <path d="M 331 173 Q 258 197 207 244 Q 114 273 107 357 Q 89 382 118 386 Q 110 414 135 399 Q 132 425 174 417 Q 196 430 203 412 Q 218 425 231 411 Q 234 437 302 416 Q 314 426 325 415 Q 365 420 421 382 Q 443 388 455 366 Q 472 382 512 329 Q 537 341 537 313 Q 561 324 559 274 Q 583 259 573 234 Q 594 223 575 205 Q 596 186 555 159 Q 511 116 455 139 Z"></path>
+              </clipPath>
+              
+              <!-- Rice Shadow 1 (Base & Top of Rice) -->
+           <svg id="riceShadow1_BaseRice" clip-path="url(#riceClip)" style="z-index: 1;">
+             <path fill="#ABA8A8" d="M 142 344 Q 127 363 128 402 Q 177 385 192 407 Q 263 400 252 418 Q 316 386 332 400 Q 403 365 423 374 Q 476 336 498 339 Q 511 308 536 305 Q 551 255 571 253 Q 590 238.5 628 191 C 510 149 579.5 238.5 494 255 C 408 252 399 333 344 276 C 237 314 330 357 91 392 L 85 246 Q 413 104 685 134 Q 694 298 600 381 Q 375 504 109 484 L 109 352 Z"/>
+           </svg>
+            
+            <!-- Small Shadow 1 on Rice -->
+            <svg>
+              <path fill="#ABA8A8" d="M 213 383 Q 239 391 250 380 Q 232 408 213 385 Z"/>
+            </svg>
+            
+            <!-- Small Shadow 2 on Rice -->
+            <svg>
+              <path fill="#ABA8A8" d="M 310 348 Q 331 361 345 345 Q 331 377 310 348 Z"/>
+            </svg>
+              
+              
+              <!-- Rice Highlights (On Rice) -->
+            <svg>
+              <path fill="#D7D7D7" d="M 333 310 C 448 327 409 276 502 264 C 489 293 402 338 334 312 Z"/>
+            </svg>
+              
+              
+  </svg> <!-- End Nested Rice SVG Container -->
+  
+                        <!-- ================
+                                Nigiri  
+                         ===================-->
+            
+              <!-- Sashimi Base -->
+              <svg id="sashimiBase">
+              <path fill="#5B5B5B" d="M 511 96 Q 567 110 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 342 209 321 275 282 248 C 234 239 219 264 168 302 Q 25 421 59 347 C 67 264 74 294 95 244 Q 109 172 145 161 C 227 128 202 107 269 105 C 303 115 352 89 377 92 Z" />
+              </svg>                        
+            
+              <!-- Clipping (Sashimi Base Shape)  -->
+            <clipPath id="sashimiBaseClip">
+              <path d="M 511 96 Q 567 110 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 342 209 321 275 282 248 C 234 239 219 264 168 302 Q 25 421 59 347 C 67 264 74 294 95 244 Q 109 172 145 161 C 227 128 202 107 269 105 C 303 115 352 89 377 92 Z"></path>
+              </clipPath>
+              
+              <!-- Sashimi Shadow -->
+              <svg id="sashimiShadow" clip-path="url(#sashimiBaseClip)"> 
+              <path fill="#4A4949" d="M 577 131 Q 590 129 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 340 215 321 275 283 262 C 256 269 219 264 168 302 Q 3 440 29 389 C 107 330 118 309 196 251 C 245 203 252 235 292 224 C 348 185 365 191 394 187 C 481 182 404 85 562 112 Z" />
+              </svg>
+              
+              <!-- Sashimi Highlights -->
+              <svg id="sashimiHighlight" clip-path="url(#sashimiBaseClip)">
+                <path fill="#797979" d="M 383 80 Q 241 117 223 168 Q 195 183 215 159 Q 227 130 281 100 Q 239 99 228 110 Q 175 140 147 207 Q 107 260 147 177 Q 172 132 223 100 Q 255 98 330 82 Q 389 53 421 74 Q 466 84 402 87 Q 310 118 298 147 Q 273 171 288 142 Q 296 126 331 104 Z"/>
+              </svg> 
+            
+            </svg> <!-- End Sushi SVG Nested Container -->
+          
+          </div> <!-- End Image Container -->
+    
+          
+          <!-- =================================================== 
+                              Titles (Top Card)
+               =================================================== -->
+          
+          
+          <img id="image"> <!-- Note > Image Element should be responsive relative to the width of its parent element without exceeding its original size
+                >> Note, it should also be centered in it's parent element
+    -->
+  
+          <div id="textGridContainer">
+            <div id="title" class="topGridItem">
+              <h1>NIGIRIZUSHI</h1>
+            </div>            
+          </div>
+          
+          
+        
+          <div id="img-caption">          
+            <h2>hand pressed sushi</h2>
+            </br>
+          </div>
+        </div>
+      </div> <!-- End Sushi Text Container -->
+       </div> <!-- End Top Card Container -->
+    
+    
+    
+      <div id="tributeContainer">
+        
+        <div id="tributeGrid"> 
+        <div class="tributeItem1">
+          
+         <svg id="fishEggSushiSVG-Container" height="80%" width="80%" viewbox="0 0 900 500" preserveAspectRatio> 
+          
+          <svg>
+            <path fill="#9E9E9E" d="M 0 238 L 652 367 L 650 376 L 0 261 Z">
+          </svg>
+        
+            
+            </div>
+        <div class="tributeItem2">2</div>
+        </div>
+        
+      </div>
+      <a id="tribute-link" target="_blank" href="#">
+        Links to an outside site that contains additional information about the subject of the tribute page.
+      </a>
+
+    </main>
+ 
+</body>
+</html>
