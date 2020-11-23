@@ -5,6 +5,7 @@
           body {
             background-color: #5B5B5B;
             margin: 0px;
+            font-size: 16px;
           }
           
           h1 {
@@ -76,22 +77,41 @@
           
           #tributeGrid {
             display: grid;
-            grid-template-columns: auto auto auto auto auto;
+            grid-template-columns: auto auto;
             grid-gap: 5px;
             margin: 5px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
             
           }
           
           .tributeItem1 {
-            grid-column: 1 / span 2;
+            grid-column: 1 / span 1;
             background-color: transparent;
+            text-align: center;
+            border: solid 2px salmon;
+            align-self: start;
+            justify-self: center;
+            
           }
           
           .tributeItem2 {
-            grid-column: 3 / span 3;
+            grid-column: 2 / span 1;
             background-color: #9E9E9E;
+            padding: 10px;
+            max-width: 500px;
+            min-width: 300px;
+            justify-self: center;
+            
           }
+
+          /* =================== Fish Egg Roe Art ================= */
           
+          #fishEggSushiSVG-Container {
+            margin: 0 auto;
+            border: 2px solid blue;
+          }
 
           /* ======================================== 
                   Responsive
@@ -200,6 +220,15 @@
             h2 {
               font-size: 16px;
             }
+
+            #tributeGrid {
+              grid-template-columns: auto;
+            }
+
+            .tributeItem2 {
+              grid-column: 1 / span 1;
+            }
+
           }
           
                     /* WIDTH Max 500px */
@@ -213,6 +242,35 @@
             h2 {
              font-size: 14px;
             }
+          }
+
+
+          /* WIDTH Max 343px */
+          @media only screen and (max-width: 343px) {
+            
+            #tributeGrid {
+              width: 70%;
+              grid-gap: 0px;
+              margin: 0px;
+            }
+
+
+            #fishEggSushiSVG-Container {
+              width: 80%;
+               
+            }
+
+            .tributeItem1 {
+              width: 80%;
+              justify-self: center;
+            }
+
+            .tributeItem2 {
+              width: 100vw;
+              justify-self: start;
+              word-break: normal;
+            }
+
           }
           
           
