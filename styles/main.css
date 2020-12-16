@@ -90,7 +90,6 @@
             grid-column: 1 / span 1;
             background-color: transparent;
             text-align: center;
-            border: solid 2px salmon;
             align-self: start;
             justify-self: center;
             
@@ -109,8 +108,7 @@
           /* =================== Fish Egg Roe Art ================= */
           
           #fishEggSushiSVG-Container {
-            margin: 0 auto;
-            border: 2px solid blue;
+            margin: 0 auto;            
           }
 
           /* ======================================== 
