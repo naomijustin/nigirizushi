@@ -189,8 +189,20 @@
                   Fish Egg Roe Sushi Images
       ================================================== -->
 
-         <svg id="fishEggSushiSVG-Container" height="100%" width="100%" viewbox="25 25 460 500" preserveAspectRatio> 
+         <svg id="fishEggSushiSVG-Container" height="100%" width="100%" viewbox="-10 25 500 500" preserveAspectRatio> 
           
+
+          <!-- =========================================
+              Bottom Shadow below Fish Egg Sushi 
+            ============================================ -->
+            <!-- Shadow underneath Fish Egg Sushi -->
+          <svg id="shadowUnderneathSushi" opacity="0.4" >
+            <path fill="#232323" d="M 40 405 L 439 388 C 482 383 493 415 408 424 C 344 427 303 450 221 451 C 150 451 100 439 50 439 C 16 438 0 406 40 405 Z"></path>
+            <path fill="#232323" d="M 53 431 L 65 432 C 103 429 97 459 60 460 C 15 459 22 432 55 432 Z"></path>
+            <path fill="#232323" d="M 290 465 C 338 463 346 487 294 483 C 241 483 267 461 289 464 Z"></path>
+            <path fill="#232323" d="M 400 459 C 527 450 463 501 425 481 C 403 499 330 468 400 460 Z"></path>
+            <path fill="#232323" d="M 420 408 C 514 419 449 456 426 433 C 394 446 380 412 420 408 Z"></path>
+          </svg>
 
           <!-- =================
                       Nori
@@ -245,6 +257,57 @@
             <path fill="#D4D3D3" d="M 170 177 C 175 166 197 173 196 183 C 192 189 171 187 172 177 Z"></path>
             <path fill="#D4D3D3" d="M 230 139 C 231 130 259 136 251 144 C 244 152 226 148 229 139 Z"></path>
             <path fill="#D4D3D3" d="M 218 175 C 218 165 237 169 238 179 C 235 187 219 184 218 175 Z"></path>
+            <path fill="#D4D3D3" d="M 299 150 C 299 137 319 137 319 148 C 320 155 300 156 301 147 Z"></path>
+            <path fill="#D4D3D3" d="M 336 164 C 345 154 357 162 350 172 C 343 176 336 170 335 163 Z"></path>
+            <path fill="#D4D3D3" d="M 370 163 C 375 156 392 166 387 173 C 381 175 369 168 370 164 Z"></path>
+            <path fill="#D4D3D3" d="M 259 183 C 261 174 279 175 280 185 C 278 191 259 188 259 184 Z"></path>
+            <path fill="#D4D3D3" d="M 265 152 L 282 152 C 287 164 264 164 266 152 Z"></path>
+            <path fill="#D4D3D3" d="M 293 187 C 293 180 303 174 309 179 C 308 183 301 191 293 186 Z"></path>
+            <path fill="#D4D3D3" d="M 327 191 C 330 184 347 183 350 192 C 345 196 328 197 327 191 Z"></path>
+            <path fill="#D4D3D3" d="M 391 190 C 395 185 406 188 406 195 C 399 197 386 193 391 190 Z"></path>
+            <path fill="#D4D3D3" d="M 186 152 L 202 146 C 202 152 190 161 186 152 Z"></path>
+          </svg>
+
+          <!-- =========================================
+                    Fish Eggs (Outside Nori)
+               ========================================= -->
+
+          <!-- Outside Egg Base  & Clip -->
+          <svg id="outsideEggBase">
+            <path fill="#ABA8A8" d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
+            <path fill="#ABA8A8" d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
+            <path fill="#ABA8A8" d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
+            <path fill="#ABA8A8" d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
+            <path fill="#ABA8A8" d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
+            <path fill="#ABA8A8" d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
+          </svg>
+
+          <clipPath id="outsideEggBaseClip">
+            <path fill="#ABA8A8" d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
+            <path fill="#ABA8A8" d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
+            <path fill="#ABA8A8" d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
+            <path fill="#ABA8A8" d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
+            <path fill="#ABA8A8" d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
+            <path fill="#ABA8A8" d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
+          </clipPath>
+
+          <!-- Outside Egg Shadow -->
+          <svg id="outsideEggShadow" clip-path="url(#outsideEggBaseClip)">
+            <path fill="#818080" d="M 31 423 C 51 448 71 444 90 419 L 104 465 L 15 466 Z"></path>
+            <path fill="#818080" d="M 264 446 C 288 473 312 472 328 443 L 346 486 L 244 489 Z"></path>
+            <path fill="#818080" d="M 379 450 C 394 465 416 465 426 450 C 431 472 458 467 466 447 L 501 490 L 368 489 Z"></path>
+            <path fill="#818080" d="M 398 398 C 407 416 424 413 435 404 C 427 418 431 427 445 433 L 375 427 Z"></path>
+            <path fill="#818080" d="M 427 413 C 435 423 453 425 460 414 L 477 438 L 428 436 Z"></path>
+          </svg>
+
+          <!-- Outside Egg Highlights -->
+          <svg id="outsideEggHighlights" >
+            <path fill="#D4D3D3" d="M 50 419 C 54 411 67 412 71 420 C 70 427 54 427 49 420 Z"></path>
+            <path fill="#D4D3D3" d="M 287 446 C 290 440 304 438 307 447 C 308 452 287 453 287 446 Z"></path>
+            <path fill="#D4D3D3" d="M 396 439 C 399 433 414 434 416 440 C 415 447 398 447 396 439 Z"></path>
+            <path fill="#D4D3D3" d="M 433 446 C 436 438 446 438 448 445 C 445 450 437 451 433 446 Z"></path>
+            <path fill="#D4D3D3" d="M 415 390 C 424 387 435 393 431 398 C 425 402 413 394 415 390 Z"></path>
+            <path fill="#D4D3D3" d="M 443 404 C 445 399 457 404 455 409 C 452 413 439 409 443 404 Z"></path>
           </svg>
 
           </svg> <!-- End SVG Container-->
