@@ -129,8 +129,17 @@
                          ===================-->
             
               <!-- Sashimi Base -->
-              <svg id="sashimiBase">
-              <path fill="#5B5B5B" d="M 511 96 Q 567 110 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 342 209 321 275 282 248 C 234 239 219 264 168 302 Q 25 421 59 347 C 67 264 74 294 95 244 Q 109 172 145 161 C 227 128 202 107 269 105 C 303 115 352 89 377 92 Z" />
+              <svg id="sashimiBase" fill="url(#SashimiBaseGrad)">
+
+                <!-- Sashimi Base Gradient-->
+                  <defs>
+                    <linearGradient id="SashimiBaseGrad" x1="0%" y1="0%" x2="0%" y2="70%">
+                      <stop offset="0%" style="stop-color:#FD9898;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#E05757;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+
+              <path d="M 511 96 Q 567 110 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 342 209 321 275 282 248 C 234 239 219 264 168 302 Q 25 421 59 347 C 67 264 74 294 95 244 Q 109 172 145 161 C 227 128 202 107 269 105 C 303 115 352 89 377 92 Z" />
               </svg>                        
             
               <!-- Clipping (Sashimi Base Shape)  -->
@@ -139,13 +148,31 @@
               </clipPath>
               
               <!-- Sashimi Shadow -->
-              <svg id="sashimiShadow" clip-path="url(#sashimiBaseClip)"> 
-              <path fill="#4A4949" d="M 577 131 Q 590 129 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 340 215 321 275 283 262 C 256 269 219 264 168 302 Q 3 440 29 389 C 107 330 118 309 196 251 C 245 203 252 235 292 224 C 348 185 365 191 394 187 C 481 182 404 85 562 112 Z" />
+              <svg id="sashimiShadow" clip-path="url(#sashimiBaseClip)" fill="url(#sashimiShadowGrad)"> 
+                
+                <!-- Sashimi Shadow Gradient-->
+                <defs>
+                  <linearGradient id="sashimiShadowGrad" x1="0%" y1="0%" x2="95%" y2="0%">
+                    <stop offset="0%" style="stop-color:#CB2D2D;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#FD7C7C;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+
+              <path d="M 577 131 Q 590 129 510 123 C 490 126 471 140 465 165 Q 457 203 412 212 C 340 215 321 275 283 262 C 256 269 219 264 168 302 Q 3 440 29 389 C 107 330 118 309 196 251 C 245 203 252 235 292 224 C 348 185 365 191 394 187 C 481 182 404 85 562 112 Z" />
               </svg>
               
               <!-- Sashimi Highlights -->
-              <svg id="sashimiHighlight" clip-path="url(#sashimiBaseClip)">
-                <path fill="#797979" d="M 383 80 Q 241 117 223 168 Q 195 183 215 159 Q 227 130 281 100 Q 239 99 228 110 Q 175 140 147 207 Q 107 260 147 177 Q 172 132 223 100 Q 255 98 330 82 Q 389 53 421 74 Q 466 84 402 87 Q 310 118 298 147 Q 273 171 288 142 Q 296 126 331 104 Z"/>
+              <svg id="sashimiHighlight" clip-path="url(#sashimiBaseClip)" fill="url(#sashimiHighlightGrad)">
+
+                <!-- Sashimi Highlights Gradient-->
+                  <defs>
+                    <linearGradient id="sashimiHighlightGrad" x1="0%" y1="5%" x2="0%" y2="80%">
+                      <stop offset="0%" style="stop-color:#FFCCCC;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#FF8D8D;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+
+                <path d="M 383 80 Q 241 117 223 168 Q 195 183 215 159 Q 227 130 281 100 Q 239 99 228 110 Q 175 140 147 207 Q 107 260 147 177 Q 172 132 223 100 Q 255 98 330 82 Q 389 53 421 74 Q 466 84 402 87 Q 310 118 298 147 Q 273 171 288 142 Q 296 126 331 104 Z"/>
               </svg> 
             
             </svg> <!-- End Sushi SVG Nested Container -->
@@ -233,8 +260,17 @@
                ========================================= -->
 
           <!-- Egg Base  & Clip -->
-          <svg id="eggBase">
-            <path fill="#ABA8A8" d="M 88 181 Q 102 148 132 168 C 139 141 174 138 183 155 Q 198 143 210 150 C 221 122 267 127 256 154 Q 273 150 286 157 C 292 130 331 131 326 160 Q 343 156 356 168 C 372 143 403 170 391 186 Q 414 187 412 201 Q 393 212 296 213 Q 176 214 65 201 Q 66 183 87 182 Z"></path>
+          <svg id="eggBase" fill="url(#eggBaseGrad)">
+
+            <!-- Egg Base Gradient-->
+            <defs>
+              <linearGradient id="eggBaseGrad" x1="0%" y1="20%" x2="0%" y2="80%">
+                <stop offset="0%" style="stop-color:#FFAC2D;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FF7F2D;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+
+            <path d="M 88 181 Q 102 148 132 168 C 139 141 174 138 183 155 Q 198 143 210 150 C 221 122 267 127 256 154 Q 273 150 286 157 C 292 130 331 131 326 160 Q 343 156 356 168 C 372 143 403 170 391 186 Q 414 187 412 201 Q 393 212 296 213 Q 176 214 65 201 Q 66 183 87 182 Z"></path>
           </svg>
 
           <clipPath id="eggBaseClip">
@@ -242,30 +278,49 @@
           </clipPath>
 
           <!-- Egg Shadow -->
-          <svg id="eggShadow" clip-path="url(#eggBaseClip)">
-            <path fill="#818080" d="M 51 182 C 48 198 106 211 104 185 C 112 210 155 209 160 183 C 171 206 190 206 202 192 C 212 208 254 202 248 181 C 244 211 284 212 287 191 Q 300 199 312 192 Q 311 205 326 207 Q 344 210 361 203 Q 366 196 359 184 Q 352 168 363 157 C 355 191 396 187 407 170 L 417 183 Q 385 183 379 200 C 393 205 420 199 413 183 L 460 228 L 32 236 L 17 179 Z"></path>
-            <path fill="#818080" d="M 325 160 Q 332 190 363 176 L 365 204 Q 338 168 309 199 Q 318 180 327 161 Z"></path>
-            <path fill="#818080" d="M 325 160 Q 290 171 286 145 C 296 180 250 175 257 152 C 243 172 206 167 215 134 Q 206 156 193 163 Q 182 163 183 151 Q 161 179 133 167 Q 123 183 86 182 L 105 188 Q 133 166 161 186 C 165 158 206 170 201 190 C 211 149 249 170 247 190 C 258 166 288 176 287 191 Q 292 176 312 174 Q 317 181 314 192 L 330 159 Z"></path>
+          <svg id="eggShadow" clip-path="url(#eggBaseClip)" fill="url(#eggShadowGrad)">
+            
+            <!-- Egg Shadow Gradient-->
+              <defs>
+                <linearGradient id="eggShadowGrad" x1="0%" y1="35%" x2="0%" y2="87%">
+                  <stop offset="0%" style="stop-color:#FF8855;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#DB2D03;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+
+            <path d="M 51 182 C 48 198 106 211 104 185 C 112 210 155 209 160 183 C 171 206 190 206 202 192 C 212 208 254 202 248 181 C 244 211 284 212 287 191 Q 300 199 312 192 Q 311 205 326 207 Q 344 210 361 203 Q 366 196 359 184 Q 352 168 363 157 C 355 191 396 187 407 170 L 417 183 Q 385 183 379 200 C 393 205 420 199 413 183 L 460 228 L 32 236 L 17 179 Z"></path>
+            <path d="M 325 160 Q 332 190 363 176 L 365 204 Q 338 168 309 199 Q 318 180 327 161 Z"></path>
+            <path d="M 325 160 Q 290 171 286 145 C 296 180 250 175 257 152 C 243 172 206 167 215 134 Q 206 156 193 163 Q 182 163 183 151 Q 161 179 133 167 Q 123 183 86 182 L 105 188 Q 133 166 161 186 C 165 158 206 170 201 190 C 211 149 249 170 247 190 C 258 166 288 176 287 191 Q 292 176 312 174 Q 317 181 314 192 L 330 159 Z"></path>
           </svg>
 
           <!-- Egg Shadow -->
-          <svg id="eggHighlights" clip-path="url(#eggBaseClip)">
-            <path fill="#D4D3D3" d="M 93 177 C 95 164 111 160 112 167 C 118 175 97 180 92 179 Z"></path>
-            <path fill="#D4D3D3" d="M 74 188 Q 96 181 86 194 Q 69 198 74 189 Z"></path>
-            <path fill="#D4D3D3" d="M 122 182 C 123 175 143 175 146 186 C 141 192 121 186 121 180 Z"></path>
-            <path fill="#D4D3D3" d="M 146 155 C 146 144 166 141 170 149 C 170 155 149 164 146 155 Z"></path>  
-            <path fill="#D4D3D3" d="M 170 177 C 175 166 197 173 196 183 C 192 189 171 187 172 177 Z"></path>
-            <path fill="#D4D3D3" d="M 230 139 C 231 130 259 136 251 144 C 244 152 226 148 229 139 Z"></path>
-            <path fill="#D4D3D3" d="M 218 175 C 218 165 237 169 238 179 C 235 187 219 184 218 175 Z"></path>
-            <path fill="#D4D3D3" d="M 299 150 C 299 137 319 137 319 148 C 320 155 300 156 301 147 Z"></path>
-            <path fill="#D4D3D3" d="M 336 164 C 345 154 357 162 350 172 C 343 176 336 170 335 163 Z"></path>
-            <path fill="#D4D3D3" d="M 370 163 C 375 156 392 166 387 173 C 381 175 369 168 370 164 Z"></path>
-            <path fill="#D4D3D3" d="M 259 183 C 261 174 279 175 280 185 C 278 191 259 188 259 184 Z"></path>
-            <path fill="#D4D3D3" d="M 265 152 L 282 152 C 287 164 264 164 266 152 Z"></path>
-            <path fill="#D4D3D3" d="M 293 187 C 293 180 303 174 309 179 C 308 183 301 191 293 186 Z"></path>
-            <path fill="#D4D3D3" d="M 327 191 C 330 184 347 183 350 192 C 345 196 328 197 327 191 Z"></path>
-            <path fill="#D4D3D3" d="M 391 190 C 395 185 406 188 406 195 C 399 197 386 193 391 190 Z"></path>
-            <path fill="#D4D3D3" d="M 186 152 L 202 146 C 202 152 190 161 186 152 Z"></path>
+          <svg id="eggHighlights" clip-path="url(#eggBaseClip)" fill="url(#eggHighlightGrad)">
+
+            <!-- Egg Highlights Gradient-->
+            <defs>
+              <linearGradient id="eggHighlightGrad" x1="0%" y1="30%" x2="0%" y2="80%">
+                <stop offset="0%" style="stop-color:#FFE9D5;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FFB067;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+
+
+            <path d="M 93 177 C 95 164 111 160 112 167 C 118 175 97 180 92 179 Z"></path>
+            <path d="M 74 188 Q 96 181 86 194 Q 69 198 74 189 Z"></path>
+            <path d="M 122 182 C 123 175 143 175 146 186 C 141 192 121 186 121 180 Z"></path>
+            <path d="M 146 155 C 146 144 166 141 170 149 C 170 155 149 164 146 155 Z"></path>  
+            <path d="M 170 177 C 175 166 197 173 196 183 C 192 189 171 187 172 177 Z"></path>
+            <path d="M 230 139 C 231 130 259 136 251 144 C 244 152 226 148 229 139 Z"></path>
+            <path d="M 218 175 C 218 165 237 169 238 179 C 235 187 219 184 218 175 Z"></path>
+            <path d="M 299 150 C 299 137 319 137 319 148 C 320 155 300 156 301 147 Z"></path>
+            <path d="M 336 164 C 345 154 357 162 350 172 C 343 176 336 170 335 163 Z"></path>
+            <path d="M 370 163 C 375 156 392 166 387 173 C 381 175 369 168 370 164 Z"></path>
+            <path d="M 259 183 C 261 174 279 175 280 185 C 278 191 259 188 259 184 Z"></path>
+            <path d="M 265 152 L 282 152 C 287 164 264 164 266 152 Z"></path>
+            <path d="M 293 187 C 293 180 303 174 309 179 C 308 183 301 191 293 186 Z"></path>
+            <path d="M 327 191 C 330 184 347 183 350 192 C 345 196 328 197 327 191 Z"></path>
+            <path d="M 391 190 C 395 185 406 188 406 195 C 399 197 386 193 391 190 Z"></path>
+            <path d="M 186 152 L 202 146 C 202 152 190 161 186 152 Z"></path>
           </svg>
 
           <!-- =========================================
@@ -273,56 +328,75 @@
                ========================================= -->
 
           <!-- Outside Egg Base  & Clip -->
-          <svg id="outsideEggBase">
-            <path fill="#ABA8A8" d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
-            <path fill="#ABA8A8" d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
-            <path fill="#ABA8A8" d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
-            <path fill="#ABA8A8" d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
-            <path fill="#ABA8A8" d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
-            <path fill="#ABA8A8" d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
+          <svg id="outsideEggBase" fill="url(#eggBaseGrad)">
+            <path d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
+            <path d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
+            <path d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
+            <path d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
+            <path d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
+            <path d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
           </svg>
 
           <clipPath id="outsideEggBaseClip">
-            <path fill="#ABA8A8" d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
-            <path fill="#ABA8A8" d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
-            <path fill="#ABA8A8" d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
-            <path fill="#ABA8A8" d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
-            <path fill="#ABA8A8" d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
-            <path fill="#ABA8A8" d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
+            <path d="M 38 430 C 40 410 73 405 80 428 C 85 455 33 459 38 430 Z"></path>
+            <path d="M 274 459 C 272 429 316 435 318 458 C 321 485 273 483 274 460 Z"></path>
+            <path d="M 397 405 C 399 383 432 379 437 403 C 444 431 396 430 397 405 Z"></path>
+            <path d="M 430 416 C 433 395 458 397 461 415 C 461 438 425 433 429 414 Z"></path>
+            <path d="M 423 456 C 428 433 455 434 458 456 C 465 477 422 481 423 456 Z"></path>
+            <path d="M 383 453 C 383 429 423 425 427 453 C 430 481 383 482 383 453 "></path>
           </clipPath>
 
           <!-- Outside Egg Shadow -->
-          <svg id="outsideEggShadow" clip-path="url(#outsideEggBaseClip)">
-            <path fill="#818080" d="M 31 423 C 51 448 71 444 90 419 L 104 465 L 15 466 Z"></path>
-            <path fill="#818080" d="M 264 446 C 288 473 312 472 328 443 L 346 486 L 244 489 Z"></path>
-            <path fill="#818080" d="M 379 450 C 394 465 416 465 426 450 C 431 472 458 467 466 447 L 501 490 L 368 489 Z"></path>
-            <path fill="#818080" d="M 398 398 C 407 416 424 413 435 404 C 427 418 431 427 445 433 L 375 427 Z"></path>
-            <path fill="#818080" d="M 427 413 C 435 423 453 425 460 414 L 477 438 L 428 436 Z"></path>
+          <svg id="outsideEggShadow" clip-path="url(#outsideEggBaseClip)" fill="url(#outsideEggShadowGrad)">
+
+            <!-- Outside Egg Shadow Gradient-->
+            <defs>
+              <linearGradient id="outsideEggShadowGrad" x1="0%" y1="35%" x2="0%" y2="80%">
+                <stop offset="0%" style="stop-color:#FF8855;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#DB2D03;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+
+            <path d="M 31 423 C 51 448 71 444 90 419 L 104 465 L 15 466 Z"></path>
+            <path d="M 264 446 C 288 473 312 472 328 443 L 346 486 L 244 489 Z"></path>
+            <path d="M 379 450 C 394 465 416 465 426 450 C 431 472 458 467 466 447 L 501 490 L 368 489 Z"></path>
+            <path d="M 398 398 C 407 416 424 413 435 404 C 427 418 431 427 445 433 L 375 427 Z"></path>
+            <path d="M 427 413 C 435 423 453 425 460 414 L 477 438 L 428 436 Z"></path>
           </svg>
 
           <!-- Outside Egg Highlights -->
-          <svg id="outsideEggHighlights" >
-            <path fill="#D4D3D3" d="M 50 419 C 54 411 67 412 71 420 C 70 427 54 427 49 420 Z"></path>
-            <path fill="#D4D3D3" d="M 287 446 C 290 440 304 438 307 447 C 308 452 287 453 287 446 Z"></path>
-            <path fill="#D4D3D3" d="M 396 439 C 399 433 414 434 416 440 C 415 447 398 447 396 439 Z"></path>
-            <path fill="#D4D3D3" d="M 433 446 C 436 438 446 438 448 445 C 445 450 437 451 433 446 Z"></path>
-            <path fill="#D4D3D3" d="M 415 390 C 424 387 435 393 431 398 C 425 402 413 394 415 390 Z"></path>
-            <path fill="#D4D3D3" d="M 443 404 C 445 399 457 404 455 409 C 452 413 439 409 443 404 Z"></path>
+          <svg id="outsideEggHighlights" fill="url(#eggHighlightGrad)">
+            <path d="M 50 419 C 54 411 67 412 71 420 C 70 427 54 427 49 420 Z"></path>
+            <path d="M 287 446 C 290 440 304 438 307 447 C 308 452 287 453 287 446 Z"></path>
+            <path d="M 396 439 C 399 433 414 434 416 440 C 415 447 398 447 396 439 Z"></path>
+            <path d="M 433 446 C 436 438 446 438 448 445 C 445 450 437 451 433 446 Z"></path>
+            <path d="M 415 390 C 424 387 435 393 431 398 C 425 402 413 394 415 390 Z"></path>
+            <path d="M 443 404 C 445 399 457 404 455 409 C 452 413 439 409 443 404 Z"></path>
           </svg>
 
           </svg> <!-- End SVG Container-->
             
             </div>
         <div class="tributeItem2">
-          Nigirizushi (握り寿司, "hand-pressed sushi") consists of an oblong mound of sushi rice that the chef presses between the palms of the hands to form an oval-shaped ball, and a topping (the neta) draped over the ball. It is usually served with a bit of wasabi; neta are typically fish such as salmon, tuna or other seafood. Certain toppings are typically bound to the rice with a thin strip of nori, most commonly octopus (tako), freshwater eel (unagi), sea eel (anago), squid (ika), and sweet egg (tamago). One order of a given type of fish typically results in two pieces, while a sushi set (sampler dish) may contain only one piece of each topping.
-          Gunkanmaki (軍艦巻, "warship roll") is a special type of nigirizushi: an oval, hand-formed clump of sushi rice that has a strip of nori wrapped around its perimeter to form a vessel that is filled with some soft, loose or fine-chopped ingredient that requires the confinement of nori such as roe, nattō, oysters, uni (sea urchin roe), corn with mayonnaise, scallops, and quail eggs. Gunkan-maki was invented at the Ginza Kyubey restaurant in 1941; its invention significantly expanded the repertoire of soft toppings used in sushi.
-          Temarizushi (手まり寿司, "ball sushi") is a sushi made by pressing rice and fish into a ball-shaped form by hand using a plastic wrap.</div>
+          <div class="lowerTextStyle">  
+            <p>
+              Nigirizushi (握り寿司, "hand-pressed sushi") consists of an oblong mound of sushi rice that the chef presses between the palms of the hands to form an oval-shaped ball, and a topping (the neta) draped over the ball. It is usually served with a bit of wasabi; neta are typically fish such as salmon, tuna or other seafood. Certain toppings are typically bound to the rice with a thin strip of nori, most commonly octopus (tako), freshwater eel (unagi), sea eel (anago), squid (ika), and sweet egg (tamago). One order of a given type of fish typically results in two pieces, while a sushi set (sampler dish) may contain only one piece of each topping.
+              Gunkanmaki (軍艦巻, "warship roll") is a special type of nigirizushi: an oval, hand-formed clump of sushi rice that has a strip of nori wrapped around its perimeter to form a vessel that is filled with some soft, loose or fine-chopped ingredient that requires the confinement of nori such as roe, nattō, oysters, uni (sea urchin roe), corn with mayonnaise, scallops, and quail eggs. Gunkan-maki was invented at the Ginza Kyubey restaurant in 1941; its invention significantly expanded the repertoire of soft toppings used in sushi.
+              Temarizushi (手まり寿司, "ball sushi") is a sushi made by pressing rice and fish into a ball-shaped form by hand using a plastic wrap.
+            </p>
+          </div>
+        </div>
+
         </div>
         
       </div>
-      <a id="tribute-link" target="_blank" href="#">
-        Links to an outside site that contains additional information about the subject of the tribute page.
-      </a>
+      <div class="footerLink tributeItem3">
+        <div class="btnWrap">
+          <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Sushi#Nigiri-zushi">
+            See more information about Nigirizushi
+          </a>
+        </div>
+      </div>
 
     </main>
  
