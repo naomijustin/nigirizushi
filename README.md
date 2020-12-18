@@ -1,44 +1,44 @@
 # Tribute Page: Nigirizushi
 
 ## Table of contents
-* Introduction - the project's aim
+* Introduction
 * Technologies
 * Launch
 * Illustrations
 * Scope of functionalities 
-* Examples of use
 * Project status 
 * Sources
 * Other information
 ___
 
-## Introduction - the project's aim
-Aim is to experiment in creation of art purely using SVG Paths and Clipping Paths.
+## Introduction
+Aim is to experiment in creation of web illustrations purely using SVG Paths, Clipping Paths and Linear Gradients in the form of a tribute page.
 
 ## Technologies
 * HTML
 * CSS
 * SVG Path Builder (by Anthony Dugios)
-* Get Waves.io
+* Get Waves
 * Blobmaker
 * CSS Grid
 
 ## Launch
-* To be released by end of December 2020
+* Released on Github Pages on 18 December 2020
+https://naomijustin.github.io/nigirizushi/
 
 ## Illustrations
-* All sushi illustrations have been created using the SVG Path Builder, and then stacked filled paths within clipped paths
+* I created all illustrations using the SVG Path Builder, and then stacked filled paths within clipped paths. I filled all the non-greyscale sections using linear gradients to create the illusion of highlights and shadows on a flat shape.
 
 ## Scope of functionalities 
-* Responsive
-
-## Examples of use
+* Responsive, lightweight illustrations.
 
 ## Project status 
-* Finalising lower sushi
-* Final step will be to style the informative text and link to the Wikipedia article.
-* Has been published to Github Pages
+* Completed
 
 ## Sources
-
-## Other information
+* SVG Path Builder (by Anthony Dugios)
+https://codepen.io/anthonydugois/pen/mewdyZ
+* Get Waves
+https://getwaves.io/
+* Blobmaker
+https://www.blobmaker.app/
