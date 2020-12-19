@@ -1,7 +1,7 @@
 <!-- =================================================== 
                   Fish Egg Roe Sushi Images
       ================================================== -->
-      <svg id="fishEggSushiSVG-Container" height="100%" width="100%" viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+      <svg id="fishEggSushiSVG-Container" height="100%" width="100%" viewbox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
       
       <!-- =========================================
               Bottom Shadow below Fish Egg Sushi 
