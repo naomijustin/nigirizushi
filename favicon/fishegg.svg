@@ -1,18 +1,19 @@
 <!-- =================================================== 
                   Fish Egg Roe Sushi Images
       ================================================== -->
-      <svg id="fishEggSushiSVG-Container" width="100%" height="auto" viewbox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" style="background-size: 100% 100%;!important">
-      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon" id="fishEggSushiSVG-Container" viewBox="8000 0 16000 16000" style="border: 2px solid red">
+ 
+    <g xmlns="http://www.w3.org/2000/svg">
       <!-- =========================================
               Bottom Shadow below Fish Egg Sushi 
             ============================================ -->
             <!-- Shadow underneath Fish Egg Sushi -->
-          <svg id="shadowUnderneathSushi" opacity="0.4" >
-            <path fill="#232323" d="M 40 405 L 439 388 C 482 383 493 415 408 424 C 344 427 303 450 221 451 C 150 451 100 439 50 439 C 16 438 0 406 40 405 Z"></path>
-            <path fill="#232323" d="M 53 431 L 65 432 C 103 429 97 459 60 460 C 15 459 22 432 55 432 Z"></path>
-            <path fill="#232323" d="M 290 465 C 338 463 346 487 294 483 C 241 483 267 461 289 464 Z"></path>
-            <path fill="#232323" d="M 400 459 C 527 450 463 501 425 481 C 403 499 330 468 400 460 Z"></path>
-            <path fill="#232323" d="M 420 408 C 514 419 449 456 426 433 C 394 446 380 412 420 408 Z"></path>
+          <svg id="shadowUnderneathSushi" opacity="0.4">
+            <path fill="#232323" d="M 40 405 L 439 388 C 482 383 493 415 408 424 C 344 427 303 450 221 451 C 150 451 100 439 50 439 C 16 438 0 406 40 405 Z"/>
+            <path fill="#232323" d="M 53 431 L 65 432 C 103 429 97 459 60 460 C 15 459 22 432 55 432 Z"/>
+            <path fill="#232323" d="M 290 465 C 338 463 346 487 294 483 C 241 483 267 461 289 464 Z"/>
+            <path fill="#232323" d="M 400 459 C 527 450 463 501 425 481 C 403 499 330 468 400 460 Z"/>
+            <path fill="#232323" d="M 420 408 C 514 419 449 456 426 433 C 394 446 380 412 420 408 Z"/>
           </svg>
       
         <!-- =================
@@ -36,8 +37,8 @@
       
         <!-- Nori Highlights -->
           <svg id="noriHighlight1" clip-path="url(#noriBaseClip)">
-            <path fill="#484848" d="M 46 204 C 133 197 141 223 98 229 C 56 245 112 263 75 298 C 43 331 95 323 61 351 C 52 384 97 389 54 400 C 22 408 61 345 49 306 C 30 266 73 245 41 229 Q 26 217 47 204 Z"></path>
-            <path fill="#484848" d="M 397 208 C 489 178 407 217 440 230 C 466 247 423 263 431 282 C 431 310 456 307 430 330 C 432 360 451 351 439 376 Q 422 390 423 369 C 441 329 390 343 404 304 C 457 221 388 269 406 230 C 408 216 361 223 397 207 Z"></path>
+            <path fill="#484848" d="M 46 204 C 133 197 141 223 98 229 C 56 245 112 263 75 298 C 43 331 95 323 61 351 C 52 384 97 389 54 400 C 22 408 61 345 49 306 C 30 266 73 245 41 229 Q 26 217 47 204 Z"/>
+            <path fill="#484848" d="M 397 208 C 489 178 407 217 440 230 C 466 247 423 263 431 282 C 431 310 456 307 430 330 C 432 360 451 351 439 376 Q 422 390 423 369 C 441 329 390 343 404 304 C 457 221 388 269 406 230 C 408 216 361 223 397 207 Z"/>
           </svg>
 
           <!-- =========================================
@@ -54,8 +55,8 @@
             <!-- Egg Base Gradient-->
             <defs>
               <linearGradient id="eggBaseGrad" x1="0%" y1="20%" x2="0%" y2="80%">
-                <stop offset="0%" style="stop-color:#FFAC2D;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#FF7F2D;stop-opacity:1" />
+                <stop offset="0%" style="stop-color:#FFAC2D;stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:#FF7F2D;stop-opacity:1"/>
               </linearGradient>
             </defs>
 
@@ -72,8 +73,8 @@
             <!-- Egg Shadow Gradient-->
               <defs>
                 <linearGradient id="eggShadowGrad" x1="0%" y1="35%" x2="0%" y2="87%">
-                  <stop offset="0%" style="stop-color:#FF8855; stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#DB2D03; stop-opacity:1" />
+                  <stop offset="0%" style="stop-color:#FF8855; stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#DB2D03; stop-opacity:1"/>
                 </linearGradient>
               </defs>
 
@@ -88,8 +89,8 @@
              <!-- Egg Highlights Gradient-->
             <defs>
               <linearGradient id="eggHighlightGrad" x1="0%" y1="30%" x2="0%" y2="80%">
-                <stop offset="0%" style="stop-color:#FFE9D5;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#FFB067;stop-opacity:1" />
+                <stop offset="0%" style="stop-color:#FFE9D5;stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:#FFB067;stop-opacity:1"/>
               </linearGradient>
             </defs>
 
@@ -140,8 +141,8 @@
             <!-- Outside Egg Shadow Gradient-->
             <defs>
               <linearGradient id="outsideEggShadowGrad" x1="0%" y1="35%" x2="0%" y2="80%">
-                <stop offset="0%" style="stop-color:#FF8855; stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#DB2D03; stop-opacity:1" />
+                <stop offset="0%" style="stop-color:#FF8855; stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:#DB2D03; stop-opacity:1"/>
               </linearGradient>
             </defs>
 
@@ -161,5 +162,5 @@
             <path fill="url(#eggHighlightGrad)" d="M 415 390 C 424 387 435 393 431 398 C 425 402 413 394 415 390 Z"/>
             <path fill="url(#eggHighlightGrad)" d="M 443 404 C 445 399 457 404 455 409 C 452 413 439 409 443 404 Z"/>
           </svg>
-
+</g>
         </svg> <!-- End SVG Container-->
