@@ -157,6 +157,28 @@
           }
 
           /* ======================================== 
+                  Footer
+             ======================================== */
+          #footerBG {
+            background-color: #3E3E3E;
+            text-align: center;
+            padding: 15px;
+            color: #7A7A7A;
+            font-size: 15px;
+            font-weight: 500;
+          }
+          
+          .socialMediaIcon {
+            color: #7A7A7A;
+            font-size: 20px;
+          }
+
+          .socialMediaIcon:hover {
+            color: #999999;
+          }
+
+
+          /* ======================================== 
                   Responsive
              ======================================== */
 
